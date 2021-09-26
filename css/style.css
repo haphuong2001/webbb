@@ -1,0 +1,33 @@
+h1 {
+    color: blue
+}
+
+.yellow-1 {
+    color: gold;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.blue {
+    color: gray;
+}
+
+.div-1 {
+    color: red;
+    border: red solid 2px;
+    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.div-2 {
+    color: blue;
+    border: blue solid 2px;
+    margin: 10px;
+}
+
+#div-3 {
+    color: green;
+    border: green solid 2px;
+}
