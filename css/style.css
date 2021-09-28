@@ -1,33 +1,46 @@
-h1 {
-    color: blue
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.yellow-1 {
-    color: gold;
-    font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.blue {
-    color: gray;
+.row {
+    display: flex;
+    max-width: 100%;
 }
 
-.div-1 {
-    color: red;
-    border: red solid 2px;
+header {
+    background-color: yellow;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+}
+
+.menu ul li {
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.product {
     margin: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: 1px solid grey;
+    border-radius: 15px;
 }
 
-.div-2 {
-    color: blue;
-    border: blue solid 2px;
-    margin: 10px;
-}
-
-#div-3 {
-    color: green;
-    border: green solid 2px;
+footer {
+    background-color: grey;
 }
